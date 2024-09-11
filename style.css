@@ -1,0 +1,43 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+}
+/* FIM RESET*/
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 64px;
+    width: 64px;
+    background-color: lightgray;
+}
+.menu ul{  
+    display: flex;
+    gap: 32px; 
+}
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+footer{
+    background-color: aliceblue;
+    height: 50px;
+}
