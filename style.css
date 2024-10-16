@@ -25,9 +25,10 @@ header{
     align-items: center;
 }
 .logo{
-    height: 64px;
-    width: 64px;
-    background-color: lightgray;
+    height: 10vh;
+    width: 10vh;
+    background-image: url(./carro.png);
+    background-size: 10vh;
 }
 .menu ul{
     display: flex;
@@ -70,9 +71,10 @@ main{
     border-radius: 50%;
 }
 .imagem{
-    height: 100%;
-    width: 50%;
+    height: 65%;
+    width: 42%;
     background-color: lightgray;
+    background-image: url(./monza\ 2.jpg)
 }
 footer{
     height: 50px;
@@ -80,3 +82,4 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
